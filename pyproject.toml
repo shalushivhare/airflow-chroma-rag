@@ -1,0 +1,16 @@
+[project]
+name = "airflow-chroma-rag"
+version = "0.1.0"
+description = "Airflow + Docker pipeline that ingests a public dataset into Chroma and serves extractive RAG."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "airflow-chroma-rag" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

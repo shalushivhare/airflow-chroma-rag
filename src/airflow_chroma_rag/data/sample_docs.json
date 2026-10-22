@@ -1,0 +1,30 @@
+[
+  {
+    "id": "Apache_Airflow",
+    "title": "Apache Airflow",
+    "source": "fixture",
+    "url": "https://en.wikipedia.org/wiki/Apache_Airflow",
+    "text": "Apache Airflow is an open-source workflow management platform for data engineering pipelines. It lets you author, schedule, and monitor directed acyclic graphs (DAGs) of tasks. Operators wrap units of work, while executors decide how those tasks run. Airflow is commonly used to ingest data, validate it, and load it into downstream systems."
+  },
+  {
+    "id": "Docker_(software)",
+    "title": "Docker",
+    "source": "fixture",
+    "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+    "text": "Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers. Containers isolate applications from the host and make the same image runnable on a laptop or in production. Compose files describe multi-service stacks such as Airflow plus a vector database."
+  },
+  {
+    "id": "Vector_database",
+    "title": "Vector database",
+    "source": "fixture",
+    "url": "https://en.wikipedia.org/wiki/Vector_database",
+    "text": "A vector database stores embeddings, which are numeric representations of unstructured data such as text. Similarity search retrieves nearest neighbors for a query vector. This is the retrieval step in retrieval-augmented generation (RAG), where an application finds relevant passages before answering a question."
+  },
+  {
+    "id": "too_short",
+    "title": "Too short",
+    "source": "fixture",
+    "url": "",
+    "text": "Nope."
+  }
+]
